@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/diubg"
+    tools:context="com.devfahim.diuapps.LauncherActivity">
+
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="563dp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent">
+        <RelativeLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+
+            <ImageView
+                android:layout_marginTop="65dp"
+                android:orientation="vertical"
+                android:src="@drawable/logo"
+                android:layout_gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+
+
+        </RelativeLayout>
+        <Button
+            android:id="@+id/btnsp"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="70dp"
+            android:layout_marginTop="215dp"
+            android:background="@drawable/student" />
+
+        <Button
+            android:id="@+id/btnbt"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:layout_marginStart="26dp"
+            android:background="@drawable/bus"
+            android:layout_above="@+id/textView"
+            android:layout_toEndOf="@+id/textView" />
+
+        <Button
+            android:id="@+id/btncc"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:layout_alignStart="@+id/textView"
+            android:layout_below="@+id/textView"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/cgpa" />
+
+        <Button
+            android:id="@+id/btnim"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:layout_alignBaseline="@+id/btncc"
+            android:layout_alignBottom="@+id/btncc"
+            android:layout_alignStart="@+id/btnbt"
+            android:background="@drawable/location" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/btnsp"
+            android:layout_below="@+id/btnsp"
+            android:layout_marginTop="18dp"
+            android:text="@string/student_portal"
+            android:textAllCaps="false"
+            android:textColor="?attr/colorBackgroundFloating"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/textView"
+            android:layout_alignStart="@+id/btnbt"
+            android:layout_marginStart="15dp"
+            android:text="@string/bus_track"
+            android:textColor="@android:color/background_light"
+            android:textSize="18sp"
+            android:layout_alignTop="@+id/textView" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/textView"
+            android:layout_below="@+id/btncc"
+            android:layout_marginEnd="50dp"
+            android:layout_marginTop="14dp"
+            android:text="@string/cgpa"
+            android:textColor="@android:color/background_light"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/textView10"
+            android:layout_alignStart="@+id/textView2"
+            android:text="@string/maps"
+            android:textColor="@android:color/background_light"
+            android:textSize="18sp" />
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

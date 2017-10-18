@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/home/fahim/Downloads/apps/diuapps/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="/home/fahim/Downloads/apps/diuapps/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_c074b47c528d22cf929f7576324804f1b969db73/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/fahim/Downloads/apps/diuapps/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="e9098ad166dbc4176cdf5ebbc005fcd2050e9de4">
+        <dex dex="/home/fahim/Downloads/apps/diuapps/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_e25430dc7a91d74361fdfc5128952edc7f673e4e/classes.dex" />
+    </item>
+
+</items>

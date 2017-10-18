@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/busy"
+    android:orientation="vertical"
+    tools:context="com.devfahim.diuapps.MainActivity">
+
+
+    <Button
+        android:id="@+id/driver"
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="129dp"
+        android:background="@drawable/blueroundedbutton"
+        android:gravity="center"
+        android:text="I'm a Driver"
+        android:textColor="?attr/colorControlActivated"
+        android:textSize="35dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/customer"
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:layout_alignLeft="@+id/driver"
+        android:layout_alignStart="@+id/driver"
+        android:layout_below="@+id/driver"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/buttons"
+        android:gravity="center"
+        android:text="I'm a Rider"
+        android:textColor="?android:attr/colorBackgroundFloating"
+        android:textSize="35dp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

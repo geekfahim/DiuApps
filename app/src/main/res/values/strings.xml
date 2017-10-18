@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name" translatable="false">Daffodil Apps</string>
+    <string name="cgpa">Cgpa</string>
+    <string name="maps">Maps</string>
+    <string name="bus_track">Bus Track</string>
+    <string name="student_portal">Student Portal</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="activate_higher_level">Activate Higher Level</string>
+    <string name="focused_building_info">Focused Building</string>
+    <string name="focused_level_info">Focused Level</string>
+    <string name="indoor_demo_description">Demonstrates how to use the Indoor API.</string>
+    <string name="indoor_demo_label">Indoor</string>
+    <string name="toggle_level_picker">Toggle Level Picker</string>
+    <string name="action_settings">action_settings</string>
+    <string name="title_activity_driver_map">Map</string>
+    <string name="title_activity_main2">Main2Activity</string>
+
+
+</resources>
